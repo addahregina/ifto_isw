@@ -10,13 +10,13 @@ Roteiro de Montagem do Servidor (Bare Metal (Físico) ou VM) e Instalação do S
 8º - Clique em Criar;
 9º - Volte pra tela principal do VirtualBox e clique na VM criada e em Configurações;
 10º - Em Armazenamento, selecione a opção: “vazio” – Vide imagem;
-11º -  Em atributos, escolha a opção “Drive óptico”, depois em “Escolher uma imagem de
+11º - Em atributos, escolha a opção “Drive óptico”, depois em “Escolher uma imagem de
 disco...” e escolhe o arquivo de imagem baixado.
 12º - Em Rede, marque a opção “Habilitar placa de Rede”, NAT do adaptador 1;
 13º - Em adaptador 2, marque a opção “Habilitar Placa de Rede” e clica em OK.
 14º - Após Iniciar a VM escolha a opção “Arquivo de imagem baixada Debian” e clique
 em Iniciar;
-15º - erificar se a opção NAT está ativada;
+15º - Verifique se a opção NAT está ativada;
 16º - No nome da máquina informe o seu nome;
 17º - Nome de domínio: Deixe em branco
 18º - Escolha uma senha segura para o usuário root;

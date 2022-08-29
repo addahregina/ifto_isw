@@ -1,0 +1,42 @@
+Roteiro de Montagem do Servidor (Bare Metal (Físico) ou VM) e Instalação do SO (Debian10) no VirtualBox
+
+1º - Abra o VirtualBox e clique na opção “novo”.
+2º - Escreva o nome do SO;
+3º - Clique em próximo, escolha 1024 MB de alocação de memória;
+4º - Clique em próximo, escolha a opção de criar um novo disco virtual;
+5º - Clique em próximo, mantenha o padrão escolhido “VDI (VirtualBox Disk Image)”;
+6º - Clique em próximo, escolha a opção “Dinamicamente alocado”;
+7º - Clique em próximo, mantenha o padrão sugerido para o tamanho do disco (8,00GB);
+8º - Clique em Criar;
+9º - Volte pra tela principal do VirtualBox e clique na VM criada e em Configurações;
+10º - Em Armazenamento, selecione a opção: “vazio” – Vide imagem;
+11º -  Em atributos, escolha a opção “Drive óptico”, depois em “Escolher uma imagem de
+disco...” e escolhe o arquivo de imagem baixado.
+12º - Em Rede, marque a opção “Habilitar placa de Rede”, NAT do adaptador 1;
+13º - Em adaptador 2, marque a opção “Habilitar Placa de Rede” e clica em OK.
+14º - Após Iniciar a VM escolha a opção “Arquivo de imagem baixada Debian” e clique
+em Iniciar;
+15º - erificar se a opção NAT está ativada;
+16º - No nome da máquina informe o seu nome;
+17º - Nome de domínio: Deixe em branco
+18º - Escolha uma senha segura para o usuário root;
+19º - Insira o nome Completo do usuário;
+20º - Escolha um nome de login, exemplo: edwardes;
+21º - Escolha uma senha para o novo usuário;
+22º - Insira o fuso horário correto, exemplo: Tocantins;
+23º - Em seguida escolha a opção: Assistido, usar o disco inteiro e configurar o LVM
+24º - Escolha a opção: Partição Home separada;
+25º - Em Grava as mudanças no disco e gravar a LVM? Sim;
+26º - Quantidade do grupo de volume para usar no particionamento guiado: Continuar
+27º - Finalizar o particionamento e escrever as mudanças no disco: Sim e Continuar
+28º - Ler outro CD ou DVD? Não;
+29º - Gerenciador de pacotes: Brasil, Continuar;
+30º - Escolha a opção: debian.deb.org, Continuar;
+31º - Informações sobre proxy HTTP: Deixa em branco, Continuar;
+32º - Caso o gerenciador de pacotes apresente um erro, escolha a opção: continuar
+sem um espelho de rede, Continuar;
+33º - Participar do concurso de utilização de pacotes? Não, Continuar;
+34º - Deixe marcado a opção: utilitário de sistema padrão, Continuar;
+35º - Instalar o carregador de inicialização GRUB: Sim, Continuar;
+36º - Selecione o HD principal: /dev/sda ..., Continuar;
+Finalize a instalação, Continuar.
